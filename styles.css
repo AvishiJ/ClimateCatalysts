@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    margin-top: .2rem;
+}
+
+.navbar {
+    padding-left: 4rem;
+}
+
+
+
+.nav-item {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'roboto';
+}
+
+.joinUsbtn {
+    margin-right: 4rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    height: 4rem;
+    width: 9rem;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.btn {
+
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    height: 4rem;
+    width: 11rem;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transform: translateX(-1rem);
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btnPurple:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btnPurple {
+    background-color: blueviolet;
+}
+
+.btn-w {
+    width: 18rem;
+}
+
+.mainSection {
+    height: 100vh;
+}
+
+.homeHeading {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.contentContainer {
+    height: 100%;
+
+}
+
+.subContainer {
+    height: 20rem;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 5rem;
+    align-items: center;
+    margin-top: 9rem;
+    margin-bottom: 19rem;
+
+}
+
+.textHolder {
+    height: 100%;
+    width: 50%;
+
+}
+
+.imgHolder {
+    height: 100%;
+    width: 20%;
+    margin-right: 10rem;
+    position: relative;
+    top: -2rem;
+}
+
+p {
+    font-family: 'rubik';
+    font-size: 1.5rem;
+    /* margin-right: 3rem; */
+}
+
+.subheading {
+    font-size: 2.7rem;
+    font-family: 'rubik';
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.horizontalLine {
+    position: absolute;
+    width: 100vw;
+    bottom: -7rem;
+
+}
+
+.footerContainer {
+    position: absolute;
+    bottom: -135rem;
+    height: 30vh;
+    background-color: rgb(27, 27, 27);
+    width: 100vw;
+}
+
+.img {
+    /* aspect-ratio: 1; */
+    height: 25rem;
+    width: 35rem;
+    border-radius: 2rem;
+
+}
